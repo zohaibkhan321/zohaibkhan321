@@ -114,15 +114,12 @@ Responsive property listing platform
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 GitHub Stats
 
-<div align="center">
+<div>
 
-<!-- GitHub Profile Stats -->
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=zohaibkhan321&show_icons=true&count_private=true&theme=dark" />
-
-<!-- Top Languages -->
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zohaibkhan321&layout=compact&theme=dark&langs_count=10" />
+<!-- Total Contributions, Current Streak & Longest Streak -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zohaibkhan321&theme=dark&hide_border=false" />
 
 </div>
 
