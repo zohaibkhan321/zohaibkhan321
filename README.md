@@ -135,13 +135,6 @@ Responsive property listing platform
 
 ---
 
-## 🐍 Contribution Snake Animation
-<!-- Snake Animation -->
-<img src="https://github.com/zohaibkhan321/zohaibkhan321/blob/output/dist/github-contribution-grid-snake.svg" />
-
-
----
-
 # 🎓 Currently Learning
 
 • Agentic AI Systems  
