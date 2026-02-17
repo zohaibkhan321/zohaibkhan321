@@ -1,0 +1,26 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: zohaibkhan321
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+      - name: Commit & push snake to output branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "dist/github-contribution-grid-snake.svg"
+          message: "Update snake animation"
+          branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
