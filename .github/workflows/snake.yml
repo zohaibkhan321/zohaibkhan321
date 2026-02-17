@@ -27,4 +27,4 @@ jobs:
           commit: "Update snake animation"
           new_branch: output
           push: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT_TOKEN }}   # <-- Use PAT instead of GITHUB_TOKEN
